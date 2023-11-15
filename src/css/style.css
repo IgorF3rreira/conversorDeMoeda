@@ -1,0 +1,141 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    
+}
+
+h1{
+    color: black ;
+    text-align: center;
+    font-size: 50px;
+    background-image: linear-gradient(to right, black, white, black);
+}
+/* main{
+height: 80vw;
+} */
+main{
+    width: 100%;
+    height: 100%;
+
+}
+div{
+    display: block;
+    margin: 0px auto;
+    width: 50%;
+    height: 400px;
+
+    margin-top: 50px;
+    
+}
+
+select{
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    top: 10%;
+    width: 100px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    border: 2px solid black;
+}
+
+
+
+#Valor{
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    top: 20%;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    border: 2px solid black;
+   text-align: center;
+   font-weight: bold;
+}
+
+
+h5{
+    text-align: center;
+    color:black;
+    position: relative;
+    top: 25%;
+    font-size: 20px;
+    background-image: linear-gradient(to right, black, white,black);
+}
+#select2{
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    top: 30%;
+    width: 100px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    border: 2px solid black;
+}
+
+#converte{
+width: 150px;
+height: 20px;
+display: block;
+margin: 0px auto;
+position: relative;
+top: 35%;
+background-color: white;
+border-radius: 10px;
+box-shadow: 5px 5px 5px black;
+text-align: center;
+font-weight: bold;
+
+}
+
+
+button{
+    display: block;
+    margin: 0px auto;
+    width: 150px;
+    height: 35px;
+    position: relative;
+    top: 50%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    border: 2px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:16px ;
+    background-image: linear-gradient(to right, black,white,black);
+    font-weight: bolder;
+
+}
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 220px;
+    background-color: black;
+}
+
+#h2-4{
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+footer > p > a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+footer > p > a:hover{
+    color: blue;
+    text-decoration: underline;
+}

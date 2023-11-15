@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+
+    <!-- CSS EXTERNO -->
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <h1>CONVERSOR DE MOEDAS</h1>
+    <main>
+        <div style="background-image:url(src/img/wallpaper2.jpeg) ;background-size: 100vh; background-position: 50%;">
+            <select name="select" id="select">
+                <option value="selecione" selected></option>
+                <option value="dolar">Dólar</option>
+                <option value="euro">Euro</option>
+                <option value="real">Real</option>
+                <option value="libras">Líbra esterlina</option>
+            </select>
+
+
+            <input type="number" name="valor" id="Valor">
+
+
+            <h5>Conversão</h5>
+            <select name="select2" id="select2">
+                <option value="selecione" selected></option>
+                <option value="dolar">Dólar</option>
+                <option value="euro">Euro</option>
+                <option value="real">Real</option>
+                <option value="libras">Líbra esterlina </option>
+            </select>
+            <div id="converte" name="converte"></div>
+
+            <button onclick="converter();" type="button">Converter</button>
+        </div> <br> <br> <br> <br>
+    </main>
+
+    <footer id="contato">
+        <h2 id="h2-4">Contatos:</h2>
+        <p> <i class="fa-solid fa-envelope"></i> Email: <a
+                href="mailto:igorferreira03@outlook.com.br">igorferreira03@outlook.com.br</a> </p>
+
+        <p> <i class="fa-solid fa-phone"></i> contato: <a href="tel: +5511948788671">(11) 94878-8671</a></p>
+        
+        <p> <i class="fa-brands fa-github"></i> <a target="_blank" href="https://github.com/IgorF3rreira">GitHub</a></p>
+
+        <p> <i class="fa-brands fa-linkedin"></i> <a target="_blank" href="https://www.linkedin.com/in/igor-ferreira-05b56622a/">linkedin</a> </p>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
