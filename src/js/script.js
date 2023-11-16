@@ -45,7 +45,7 @@ function converter() {
     } else if (value === "dolar" && valueDois === "euro") {
 
         valor = valor * 1.84;
-        valor.toFixed(2);
+       valor = valor.toFixed(2);
         converte.innerHTML = valor + "€"
 
     } else if (value === "dolar" && valueDois === "real") {
