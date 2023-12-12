@@ -41,22 +41,22 @@ function converter() {
     if(value === "dolar" && valueDois === "dolar"){
         valor = valor ;
         valor.toFixed(2);
-        converte.innerHTML = valor + "US$"
+        converte.innerHTML = "US$ " + valor
     } else if (value === "dolar" && valueDois === "euro") {
 
         valor = valor * 1.84;
-       valor = valor.toFixed(2);
-        converte.innerHTML = valor + "€"
+        valor.toFixed(2);
+        converte.innerHTML = "€ " + valor 
 
     } else if (value === "dolar" && valueDois === "real") {
         valor = valor * 4.87;
         valor.toFixed(2);
-        converte.innerHTML = valor + "R$"
+        converte.innerHTML = "R$ "  + valor 
 
     } else if (value === "dolar" && valueDois === "libras") {
         valor = valor * 0.80;
         valor.toFixed(2);
-        converte.innerHTML = valor + "£"
+        converte.innerHTML = "£ " + valor 
     }
 
 
@@ -64,67 +64,67 @@ function converter() {
     if(value === "euro" && valueDois === "euro"){
         valor = valor ;
         valor.toFixed(2);
-        converte.innerHTML = valor + "€"
+        converte.innerHTML = "€ " + valor 
     } else if (value === "euro" && valueDois === "dolar") {
 
         valor = valor * 1.09;
         valor.toFixed(2);
-        converte.innerHTML = valor + "US$"
+        converte.innerHTML = "US$ " + valor 
 
     } else if (value === "euro" && valueDois === "real") {
         valor = valor * 5.29;
         valor.toFixed(2);
-        converte.innerHTML = valor + "R$"
+        converte.innerHTML = "R$ " + valor 
 
     } else if (value === "euro" && valueDois === "libras") {
         valor = valor * 0.87;
         valor.toFixed(2);
-        converte.innerHTML = valor + "£"
+        converte.innerHTML = "£ " + valor
     }
 
     //REAL
     if(value === "real" && valueDois === "real"){
         valor = valor ;
         valor.toFixed(2);
-        converte.innerHTML = valor + "R$"
+        converte.innerHTML = "R$ " + valor 
     } else if (value === "real" && valueDois === "dolar") {
 
         valor = valor * 0.21;
         valor.toFixed(2);
-        converte.innerHTML = valor + "US$"
+        converte.innerHTML = "US$ " + valor  
 
     } else if (value === "real" && valueDois === "euro") {
         valor = valor * 0.19;
         valor.toFixed(2);
-        converte.innerHTML = valor + "€"
+        converte.innerHTML = "€ " + valor  
 
     } else if (value === "real" && valueDois === "libras") {
         valor = valor * 0.16;
         valor.toFixed(2);
-        converte.innerHTML = valor + "£"
+        converte.innerHTML = "£ " + valor  
     }
 
 
     //LIBRAS
     if(value === "libras" && valueDois === "libras"){
         valor = valor ;
-        valor.toFixed(2);
-        converte.innerHTML = valor + "£"
+        valor.toFixed(2); 
+        converte.innerHTML = "£ " + valor 
     }else if (value === "libras" && valueDois === "dolar") {
 
         valor = valor * 1.25;
         valor.toFixed(2);
-        converte.innerHTML = valor + "US$"
+        converte.innerHTML = "US$ " + valor 
 
     } else if (value === "libras" && valueDois === "euro") {
         valor = valor * 1.15;
         valor.toFixed(2);
-        converte.innerHTML = valor + "€"
+        converte.innerHTML = "€ " + valor
 
     } else if (value === "libras" && valueDois === "real") {
         valor = valor * 6.08;
         valor.toFixed(2);
-        converte.innerHTML = valor + "R$"
+        converte.innerHTML = "R$ " + valor 
     }
 
 
